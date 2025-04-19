@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+      font-family: "Montserrat", sans-serif;
+      font-size: 31px;
+      font-weight: 500;
+      padding-bottom: 10px;
+}
+.page-weight{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    transition: .4s;
+}
+.card2{
+    margin-top: 50px;
+}
+img{
+    max-width: 100%;
+}
+.head{
+    text-align: center;
+    margin: 40px 0px;
+}
+.head h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.head p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bannerSection .col{
+    width: 33.33%;
+    padding: 30px;
+    border-radius: 25px;
+    transition: .4s;
+}
+.col-2{
+    width: 66.66%;
+    transition: .4s;
+}
+.bcolor{
+    background-color: #cbc5fb;
+}
+.col:hover{
+    box-shadow: 0px 2px 13px -3px;
+}
+.card:hover{
+    box-shadow: 0px 2px 13px -3px;
+}
+a:hover{
+    box-shadow: 0px 2px 13px -3px;
+}
+.bg2{
+    background-color: #fad2c4;
+    padding: 30px;
+    border-radius: 25px;
+}
+.bg3{
+     background-color: #c3ddff;   
+    padding: 30px;
+    border-radius: 25px;
+}
+.heading{
+    width: 100%;
+}
+.down{
+    margin-top: 120px;
+}
+p{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.bannerSection a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+    transition: .4s;
+}
+.about{
+    margin-top: 100px;
+}
+.about .column{
+    width: 50%;
+}
+.about h1{
+    font-size: 40px;
+}
+.about h1 span{
+    font-weight: 600;
+}
+.about p{
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+.about p span{
+    font-weight: 700;
+}
+.about a{
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid red;
+    padding: 10px 26px;
+    display: inline-block;
+    border-radius: 40px;
+    background-color: #e83350;
+    color: #fff;
+    transition: .4s;
+    margin-bottom: 20px;
+}
+p i{
+    color: red;
+    margin-right: 8px;
+}
+.about a:hover{
+    background-color: #fff;
+    color: #e83350;
+}
+.colR{
+    width: 20%;
+}
+.colR i{
+    color: #EBBF20;
+}
+.RatedBy p{
+    font-size: 16px;
+}
+.colLogo img{
+    max-width: 75%;
+    margin-bottom: 20px;
+}
